@@ -1,0 +1,49 @@
+body{
+    background-color: #FFF1F4;/*#F5D3D9*/
+}
+form{
+    background: #F5D3D9;
+    border: 2px solid #C9C6C6;
+    width: 520px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+#screen{
+    height: 50px;
+    width: 500px;
+    background-color: #FFF1F4;
+    color: #BBB8B8;
+    font-family: 'Lucida Sans Unicode';
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 45px;
+    border: 3px pink #C9C6C6;
+    border-radius: 5px;
+}
+#regular,#cancel, #regular2{
+    height: 50px;
+    width: 145px;
+}
+#plus{
+    height: 100px;
+    width: 50px;
+}
+#zero{
+    height: 50px;
+    width: 300px;
+}
+#equal{
+    height: 50px;
+    width: 455px;
+}
+#regular2{
+    width: 50px;
+}
+input[type=button]{
+    background: #F9E4E8;
+    /*border: 2px;*/
+    border-radius: 5px;
+    font-size: 45px;
+    color: #F2C2C2;
+}

@@ -1,0 +1,77 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <title>15 Mar 18' 00h10</title>
+        <link rel="stylesheet" href="Style.css"/>
+        <script type="text/javascript" src="Calc Script.js"></script>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="screen" readonly value="0"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" id="regular" value="7" onclick="disp(7)">
+                    </td>
+                    <td>
+                        <input type="button" id="regular" value="8" onclick="disp(8)">
+                    </td>
+                    <td>
+                        <input type="button" id="regular" value="9" onclick="disp(9)">
+                    </td>
+                    <td>
+                        <input type="button" id="regular2" value="*" onclick="disp('*')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" id="regular" value="4" onclick="disp(4)">
+                    </td>
+                    <td>
+                        <input type="button" id="regular" value="5" onclick="disp(5)">
+                    </td>
+                    <td>
+                        <input type="button" id="regular" value="6" onclick="disp(6)">
+                    </td>
+                    <td>
+                        <input type="button" id="regular2" value="/" onclick="disp('/')">
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <input type="button" id="regular" value="1" onclick="disp(1)">
+                        </td>
+                        <td>
+                            <input type="button" id="regular" value="2" onclick="disp(2)">
+                        </td>
+                        <td>
+                            <input type="button" id="regular" value="3" onclick="disp(3)">
+                        </td>
+                        <td rowspan="2">
+                            <input type="button" id="plus" value="+" onclick="disp('+')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" id="zero" value="0" onclick="disp(0)">
+                        </td>
+                        <td>
+                            <input type="button" id="cancel" value="CE" onclick="ms_clear()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="button" id="equal" value="=" onclick="compute()">
+                        </td>
+                        <td>
+                            <input type="button" id="regular2" value="-" onclick="disp('-')">
+                        </td>
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>
